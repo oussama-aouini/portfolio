@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Oussama Aouini - Blog</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="portfolio.html">Portfolio</a></li>
+                <li><a href="blog.html">Blog</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section class="blog-section">
+        <div onclick="d.showModal()" class="blog-post">
+            <img src="image1.jpg" alt="Image 1" class="blog-image">
+            <h2>Image 1</h2>
+            <p class="blog-description">
+                Description for Image 1. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+            </p>
+        </div>
+        <dialog id="d">
+            Yo wassup
+            <button onclick="d.close()">close</button>
+        </dialog>
+
+        <div class="blog-post">
+            <img src="image2.jpg" alt="Image 2" class="blog-image">
+            <h2>Image 2</h2>
+            <p class="blog-description">
+                Description for Image 2. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+            </p>
+        </div>
+
+        <!-- Add more blog post divs as needed -->
+    </section>
+</body>
+</html>
